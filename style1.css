@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    
+}
+
+a{
+    color: black;
+    font-weight: 550;
+    text-decoration: wavy;
+}
+
+header{
+    height: 60px;
+    background-color: #806BDC;
+    text-align: center;
+    padding: 1rem;
+    margin: 0 auto;
+}
+
+.NavBar{
+    padding-top: 18px;
+    text-align: center;
+}
+
+#navbar-title{
+    color: white;
+    height: auto;
+    font-size: 36px; /* Set the font size */
+    text-align: center; /* Center the text */
+    font-family: 'Arial', sans-serif; /* Set the font family */
+    text-transform: uppercase; /* Uppercase the text */
+    letter-spacing: 2px; /* Adjust letter spacing */
+    margin-bottom: 20px; /* Add some margin to the bottom */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.Items{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#item-table{
+    width: 100%;
+    text-align: center;
+}
+
+.Item-img{
+    height: 64px;
+}
+
+.Item-tag{
+    font-size: 14px;
+}
+
+.Item-tag:hover{
+    color: #806BDC;
+}
+
+.Shopping-container{
+    background-color: lightgrey;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.Shopping-container h2{
+    color: blueviolet;
+}
+
+#shopping-time-img{
+    margin-top: 30px;
+    width: 90vw;
+    height: 60vh;
+}
+
+.Sales-table{
+    width: 90vw;
+    margin: auto;
+    border: 1px solid grey;
+    border-collapse: collapse;
+    padding: 12px;
+}
+
+.Sales-table-head{
+    background-color: #806BDC;
+}
+
+/* Solution as follows */
+.Information{
+    width: 92vw;
+    margin: 20px;
+    font-size: 20px;
+    color: black;
+    list-style-position: inside;
+}
+
+.Information h1{
+    color: blueviolet;
+}
+
+.Information h2{
+    color: blueviolet;
+}
+
+.Information .social-icon {
+    margin: 0 10px;
+    display: inline-block;
+    transition: transform 0.3s ease-in-out;
+}
+
+.Information .social-icon img {
+    width: 50px; /* Adjust the width as needed */
+    height: auto;
+}
+
+.Information .social-icon:hover {
+    transform: scale(1.2); /* Increase size on hover, adjust as needed */
+}
+
+.payment-options {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.payment-option {
+    margin: 0 10px;
+}
+
+.payment-option img {
+    width: 100px; /* Adjust the width as needed */
+    height: auto;
+    margin: 10px;
+}
+
+footer{
+    height: 70px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+}
